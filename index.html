@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichwan Fauzi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo" onclick="showPage('home')">/net/ichwan_fauzi</div>
+    </nav>
+
+    <div id="home-page">
+        <header>
+            <div class="hero-content">
+                <span class="hero-tag">Computer Network & Cyber Security Enthusiast | Designer</span>
+                <h1>Muhammad Ichwan Fauzi</h1>
+                <div class="typewriter" id="typewriter"></div>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="about-flex-container">
+                <div class="about-text-side">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        I am an Informatics student at IT PLN and a Laboratory Assistant in Embedded Systems and Computer Networks.
+                        <br><br>
+                        the lab, I support practical courses covering microprocessor systems, operating systems, network configuration, 
+                        cybersecurity fundamentals, and digital systems. I assist in guiding hands-on simulations, system configuration, and 
+                        network design practices to ensure strong technical understanding. 
+                        <br><br>
+                        My focus lies in building reliable network 
+                        infrastructure and understanding system behavior at both hardware and operating system levels, while also developing 
+                        digital media for impactful visual communication.
+                    </p>
+                </div>
+                <div class="about-skills-side">
+                    <div class="skills-hud-grid">
+                        <div class="skill-hud-card"><div class="hud-bar"></div><i class="fas fa-paint-brush"></i><span>Design Graphic</span></div>
+                        <div class="skill-hud-card"><div class="hud-bar"></div><i class="fas fa-shield-alt"></i><span>Cyber Security</span></div>
+                        <div class="skill-hud-card"><div class="hud-bar"></div><i class="fas fa-network-wired"></i><span>Computer Network</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Professional Roadmap</h2>
+            <div class="grid-container" id="prof-grid"></div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="grid-container" id="project-grid"></div>
+        </section>
+
+        <section class="get-in-touch-section">
+            <h2 style="font-size: 2.5rem; margin-bottom: 15px;">Let's Connect!</h2>
+            <p style="opacity: 0.7; max-width: 600px; margin: auto; font-size: 1.1rem;">
+                "Ready to git commit a new project?
+            </p>
+            
+            <div class="contact-big-icons">
+                <a href="https://github.com/ichwanfauzi" target="_blank" class="contact-icon-box">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-ichwan-fauzi-911b33397/" target="_blank" class="contact-icon-box">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/ichwn.fzy?igsh=MWRqeDUxd3p6cmhwNw==" target="_blank" class="contact-icon-box">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:ikhwanfauzi938@gmail.com" class="contact-icon-box">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="footer-credit">
+                Designed & Built by <span style="color: var(--accent);">Ichwan</span><br>
+                © 2026 Informatics Engineering ITPLN
+            </div>
+        </section>
+        </div>
+
+    <div id="details-page" style="display: none;">
+        <section class="details-view">
+            <div class="back-btn" onclick="showPage('home')"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</div>
+            <div id="details-content"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
